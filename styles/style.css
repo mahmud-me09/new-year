@@ -219,7 +219,6 @@
 }
 /* What is functional section */
 .functional{
-    height: 7335px;
     width:1320px;
     margin:120px auto;
     text-align: center;
@@ -261,6 +260,10 @@
     position:relative;
     align-content:bottom;
 }
+.image-container{
+    position: relative;
+    height:500px !important;
+}
 
 .shopping50 #shopping{
     position: absolute;
@@ -270,20 +273,63 @@
 }
 .shopping50 #fifty{
     position: absolute;
-    top:280px;
+    top:150px;
     right:280px;
     z-index: 4;
+    background: (49.96% 50% at 50% 50.23%, #000 0%, #FFF 100%);
 }
-.image-container{
-    position: relative;
-}
+
 #gift{
     position:relative;
-    bottom:-220px;
+    bottom:-200px;
     z-index: 10;
 }
 #base{
     position:absolute;
     right:0
 }
-
+.gifts{
+    width: 1320px;
+    margin:600px auto;
+}
+.gift-writing h3{
+    display:block;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.gift-writing h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin:0px;
+}
+.gift-writing p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 896px;
+}
+.image-section{
+    display: inline-block;
+    width: 1320px;
+}
+.image-section img{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    margin: 0 20px 24px 0;
+}
+.image-section img:last-child, .image-section img:nth-child(3){
+    margin-right:0px !important;
+}
