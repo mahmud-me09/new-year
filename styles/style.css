@@ -104,4 +104,12 @@
     color: #FFF;
     text-decoration: none;
     padding-left: 10px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.image24{
+    padding-right: 138px;
 }
