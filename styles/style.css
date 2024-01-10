@@ -116,3 +116,28 @@
 .image24{
     padding-right: 138px;
 }
+
+/* time and place */
+.time-and-place{
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin:120px auto;
+}
+.time-place{
+    padding: 100px 386px 0px 385px;
+}
+.time-place > p{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+    margin:0px;
+}
+.time-place > p span{
+    color: red;
+}
