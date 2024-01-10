@@ -30,6 +30,9 @@
     padding: 177px 531px 2px 530px;
 }
 /* advertizement section */
+.advertize{
+    display: block !important;
+}
 .advertize > h1{
     color: #F00;
     text-align: center;
