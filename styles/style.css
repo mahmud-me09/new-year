@@ -123,9 +123,13 @@
     height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin:120px auto;
+    border-radius: 20px;
+    
 }
 .time-place{
     padding: 100px 386px 0px 385px;
+    align-items: center;
+    font-family: Inter;
 }
 .time-place > p{
     color: #070211;
@@ -141,3 +145,145 @@
 .time-place > p span{
     color: red;
 }
+.join-now{
+    display: block;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    color: white;
+    margin: 60px auto;   
+}
+/* Best offer style */
+.best-offer{
+    display: flex;
+    height: 463px;
+    width:1320px;
+    margin:50px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.middle img{
+    border-radius: 50%;
+    border: 15px solid #F00;
+    padding:35px;
+}
+
+.left{
+    width:40%;
+    padding-right:60px;
+}
+.left > h5{
+    color: #F00;
+    text-align: left;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.left > h3{
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.left >p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.right{
+    width:30%;
+    padding-left: 50px;
+}
+.right > h2{
+    color: #F00;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.right > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+/* What is functional section */
+.functional{
+    height: 7335px;
+    width:1320px;
+    margin:120px auto;
+    text-align: center;
+}
+.functional h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.functional h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 20px 0px;
+}
+.functional h1 span{
+    color: #F00;
+}
+.functional > p{
+    margin: 0px 280px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+.shopping50{
+    position:relative;
+    align-content:bottom;
+}
+
+.shopping50 #shopping{
+    position: absolute;
+    bottom: 0;
+    right:0px;
+    z-index: 1;
+}
+.shopping50 #fifty{
+    position: absolute;
+    top:280px;
+    right:280px;
+    z-index: 4;
+}
+.image-container{
+    position: relative;
+}
+#gift{
+    position:relative;
+    bottom:-220px;
+    z-index: 10;
+}
+#base{
+    position:absolute;
+    right:0
+}
+
