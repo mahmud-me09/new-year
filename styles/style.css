@@ -30,10 +30,10 @@
     padding: 177px 531px 2px 530px;
 }
 /* advertizement section */
-.advertize{
+.advertize1{
     display: block !important;
 }
-.advertize > h1{
+.advertize1 > h1{
     color: #F00;
     text-align: center;
     font-size: 88px;
@@ -43,7 +43,7 @@
     padding-top: 40px;
     margin:0;
 }
-.advertize > h6{
+.advertize1 > h6{
     color: #F00;
     text-align: center;
     font-size: 24px;
@@ -53,7 +53,7 @@
     margin-top:50px;
     margin-bottom: 0px;
 }
-.advertize > h3{
+.advertize1 > h3{
     color: #070211;
     text-align: center;
     font-size: 48px;
@@ -62,7 +62,7 @@
     line-height: normal;
     margin-top:20px;
 }
-.advertize > img{
+.advertize1 > img{
     width: 802.9px;
     height: 500px;
     display:block;
