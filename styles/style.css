@@ -18,6 +18,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
+    padding: 2px 344px 177px 344px;
 }
 .overlay > h3{
     color: #FFF;
@@ -26,4 +27,41 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding: 177px 531px 2px 530px;
+}
+/* advertizement section */
+.advertize > h1{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 40px;
+    margin:0;
+}
+.advertize > h6{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top:50px;
+    margin-bottom: 0px;
+}
+.advertize > h3{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top:20px;
+}
+.advertize > img{
+    width: 802.9px;
+    height: 500px;
+    display:block;
+    margin: 0 auto;
 }
